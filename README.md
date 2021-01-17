@@ -35,3 +35,20 @@ https://drive.google.com/file/d/1gFyw95kAaJmdkWzisAb2G0n6BFAKBbh4/view?usp=shari
 
 - Describa brevemente su diseño, el por que y técnicas o patrones usados.
   > Esta distribución permite tener mayor control sobre los cambios en los estilos, tiene abstracción, respeta la asignación de responsabilidades, además de ofrecer escalabilidad y mantenibilidad.
+
+## 3. Arquitectura en Angular 6+ - 20 puntos (GitBranch: feature/front angular arq)
+
+- Diseñe una arquitectura de dos capas (no es necesario realizar implementación en código):
+  App: módulos de la aplicación
+  Store: estado de la aplicación
+
+  > Se realiza pensando en una app que consume la api de Spotify
+
+https://drive.google.com/file/d/1CpW79zLxvsgxqFfOB2cRDrXc_tkshrEY/view?usp=sharing - VER DIAGRAMA!
+[VER DIAGRAMA](https://drive.google.com/file/d/1CpW79zLxvsgxqFfOB2cRDrXc_tkshrEY/view?usp=sharing)
+
+-Describa brevemente su diseño, el por qué y técnicas o patrones usados.
+
+> Capa de presentación (Verde claro): Se separan en módulos todas las posibles páginas o urls que pueda navegar el usuario, con la finalidad de que puedan cargarse utilizando Lazy Load. En otro directorio se organizan componentes de presentación que pueden ser compartidos por los diferentes componentes o páginas de la aplicación, respetando la arquitectura de componentes y delegando la responsabilidad de comunicarse con los STORE al componente de mayor nivel.
+
+> Para la capa de datos (Gris): se implementa el patrón REDUCER, con Redux, quien se encargará de la administración y consistencia del estado dentro de toda la aplicación.
