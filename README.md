@@ -88,3 +88,21 @@ Marque la respuesta correcta y justifique brevemente.
 ### NOTA:
 
 > Las anteriores respuestas son pensando en una aplicación corporativa de gran tamaño, que necesita estabilidad y escalabilidad.
+
+## 5. Pruebas Unitarias - 10 puntos (GitBranch: feature/front unit)
+
+Seleccione la respuesta correcta e indique brevemente el por qué.
+
+- Al realizar Unit Testing, una cobertura de 100% implica:
+  > 1. Bugs al 0%
+
+2. Clean code al 100%
+3. Funcionalidad al 100%
+4. Ninguna de las anteriores
+
+- End to End Testing implica:
+  > 1.  Flujo completo del usuario a través de pantallas
+
+2. Interacción del usuario con componentes de cada pantalla
+3. Agotar escenarios de cada pantalla
+4. Ninguna de las anteriores
