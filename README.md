@@ -52,3 +52,39 @@ https://drive.google.com/file/d/1CpW79zLxvsgxqFfOB2cRDrXc_tkshrEY/view?usp=shari
 > Capa de presentación (Verde claro): Se separan en módulos todas las posibles páginas o urls que pueda navegar el usuario, con la finalidad de que puedan cargarse utilizando Lazy Load. En otro directorio se organizan componentes de presentación que pueden ser compartidos por los diferentes componentes o páginas de la aplicación, respetando la arquitectura de componentes y delegando la responsabilidad de comunicarse con los STORE al componente de mayor nivel.
 
 > Para la capa de datos (Gris): se implementa el patrón REDUCER, con Redux, quien se encargará de la administración y consistencia del estado dentro de toda la aplicación.
+
+## 4. Módulos en Angular 6+ - 20 puntos (GitBranch: feature/front angular mod)
+
+Marque la respuesta correcta y justifique brevemente.
+
+- La mejor manera de trasportar información entre Components es:
+
+1. Comunicación directa entre Components
+2. Comunicación a través de un Service
+   > 3. Comunicación a través del Store
+3. Ninguna de las anteriores
+
+- La mejor manera de controlar el acceso a Routes es:
+  > 1.  Manejar Guards a varios niveles.
+
+2. Usar Resolvers exclusivos.
+3. Aplicar Lazy Loading.
+4. Ninguna de las anteriores
+
+- La autenticación, en general, debe:
+
+1. Reposar en el Angular Module.
+2. Reposar en el Shared Module.
+   > 3. Reposar en un módulo exclusivo.
+3. Ninguna de las anteriores
+
+- Si se presenta un error en el proceso de autenticación, la buena practica es:
+
+1. Implementar un Service para vigilar los logs.
+2. Implementar un Feature en el Store para vigilar los logs.
+   > 3. Implementar un Interceptor para vigilar los logs.
+3. Ninguna de las anteriores
+
+### NOTA:
+
+> Las anteriores respuestas son pensando en una aplicación corporativa de gran tamaño, que necesita estabilidad y escalabilidad.
