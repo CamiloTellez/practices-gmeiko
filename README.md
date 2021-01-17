@@ -85,6 +85,6 @@ Marque la respuesta correcta y justifique brevemente.
    > 3. Implementar un Interceptor para vigilar los logs.
 3. Ninguna de las anteriores
 
-###NOTA:
+### NOTA:
 
 > Las anteriores respuestas son pensando en una aplicación corporativa de gran tamaño, que necesita estabilidad y escalabilidad.
